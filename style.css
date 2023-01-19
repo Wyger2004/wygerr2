@@ -1,0 +1,553 @@
+@font-face{
+    font-family: "Parangon";
+    src: url(fonts/Parangon/Parangon530C.ttf);
+}
+@font-face{
+    font-family: "Myriad";
+    src: url(fonts/Myriad/MyriadPro-Light.otf);
+}
+@font-face{
+    font-family: "PTSans";
+    src: url(fonts/PTSans/PTSans-Regular.ttf);
+}
+@font-face{
+    font-family: "PTSansCaption";
+    src: url(fonts/PTSansCaption/PTSansCaption-Regular.ttf);
+}
+@font-face{
+    font-family: "Futura";
+    src: url(fonts/Futura-Normal/Futura\ Medium\ Italic\ font.ttf);
+}
+@font-face{
+    font-family: "Helvetica";
+    src: url(fonts/Helvetica/helveticaneuecyr_roman.otf);
+}
+@font-face{
+    font-family: "Tahoma";
+    src: url(fonts/Tahoma/tahoma.ttf);
+}
+@font-face{
+    font-family: "exo2";
+    src: url(fonts/exo2/Exo2-VariableFont_wght.ttf);
+}
+.wrap{
+    width: 1500px;
+    margin: 0 auto;
+}
+.start-window{
+    background: url(img/IMG_3644.png);
+    background-blend-mode: multiply;
+    background-position: top;
+    width: 1500px;
+    height: 800px;
+    background-color: #5e649c;
+}
+.text{
+    text-align: center;
+    color: white;
+    padding-top: 160px;
+}
+.text h1{
+    font-size: 48px;
+    font-family: "Parangon";
+    letter-spacing: 2px;
+}
+.text p{
+    font-size: 30px;
+    font-family: "PTSans";
+}
+.blocks{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 40px;
+}
+.block1{
+    background: url(img/Группа\ 1.png) no-repeat;
+    width: 251px;
+    height: 180px;
+}
+.block2{
+    background: url(img/Группа\ 2.png) no-repeat;
+    width: 251px;
+    height: 180px;
+}
+.block3{
+    background: url(img/Группа\ 3.png) no-repeat;
+    width: 251px;
+    height: 180px;
+}
+.zifri,.uslugi{
+    color: white;
+    text-align: center;
+}
+.zifri{
+    font-size: 48px;
+    font-family: "Parangon";
+}
+.uslugi{
+    font-family: "PTSans";
+    font-size: 22px;
+    margin-top: -50px;
+}
+header{
+    justify-content: flex-end;  
+    align-items: center;
+    display: flex;
+    height: 100px;
+    border-bottom: 1px solid rgb(163, 160, 160);
+}
+.nav a{
+    font-family: "Helvetica";
+    text-decoration:none;
+    color:black;
+    font-size: 30px;
+    margin-left:40px ;
+}
+.nav{
+    margin-right: 145px;
+}
+.nav a:hover{
+    color: #f6ae48;
+}
+.studio{
+    display: flex;
+    margin-top: 210px;
+    margin-left: 150px;
+    position: relative;
+}
+.studio-main p{
+    font-family: "Tahoma";
+    font-weight: bold;
+    margin-top: -170px;
+    margin-left: 480px;
+    letter-spacing: 60px;
+    font-size: 340px;
+    position: absolute;
+    color: #c1c1c1;
+    opacity: 20%;
+}
+.studio-maintext{
+    font-family: "Helvetica";
+    font-size: 48px;
+    font-weight: bold;
+}
+.studio-secondtext{
+    letter-spacing: 1px;
+    margin-top: -35px;
+    width: 831px;
+    margin-left: 180px;
+    font-family: "PTSansCaption";
+    font-size: 20px;
+    line-height: 30px;
+}
+.gap{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 40px;
+    margin-top: 200px;
+}
+.support img, .prodvizh img,.start img{
+    margin: 15px 20px;
+}
+.txt{
+    width: 355px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+    line-height: 23px;
+    margin-top: -15px;
+}
+.txt1{
+    width: 355px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+    line-height: 23px;
+    margin-top: -15px;
+}
+.txt2{
+    width: 355px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+    line-height: 23px;
+    margin-top: -27px;
+}
+.support,.prodvizh,.start{
+    width: 399px;
+    height: 384px;
+    background: white;
+}
+.start:hover{
+    color: white;
+    background: #f6ae48;
+}
+.prodvizh:hover{
+    color: white;
+    background: #f6ae48;
+}
+.support:hover{
+    color: white;
+    background: #f6ae48;
+}
+.credo{
+    background: url(img/IMG_3654.png) no-repeat;
+    width: 1500px;
+    height: 566px;
+    background-color: #5e649c;
+    background-blend-mode: multiply;
+    background-position: top;
+    margin-top: 100px;
+}
+.text-credo{
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+.text-credo h1{
+    font-family: "exo2";
+    font-size: 50px;
+}
+.text-credo p{
+    font-family: "helvetica";
+    font-size: 24px;
+}
+.razrab{
+    background: url(img/Группа\ 12.png);
+    width: 666px;
+    height: 526px;
+    margin-top: -100px;
+}
+.razrab p{
+    font-family: "Parangon";
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-left: -80px;
+    padding-top: 140px;
+}
+.assort{
+    display: flex;
+    margin-top:-260px ;
+    justify-content: center;
+}
+.assort1,.assort2,.assort3{
+    width: 363px;
+    height: 315px;
+    margin-left: 20px;  
+}
+.assort1{
+    background: url(img/Группа\ 22.png) no-repeat;
+}
+.assort2{
+    background: url(img/Группа\ 23.png) no-repeat;
+}
+.assort3{
+    background: url(img/Группа\ 24.png) no-repeat;
+}
+.assort p{
+    letter-spacing: 5px;
+    margin-left: 20px;
+    font-family: "PTSans";
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+.line-assort1,.line-assort2,.line-assort3{
+    background: white;
+    height: 1px;
+    width: 258px;
+    margin-left: 20px;
+}
+.line-assort1{
+    margin-top: -30px;
+}
+.line-assort2{
+    margin-top: 80px;
+}
+.line-assort3{
+    margin-top: -35px;
+}
+.btn-assort{
+    display: flex;
+}
+.btn-assort-btn1,.btn-assort-btn2,.btn-assort-btn3{
+    cursor: pointer;
+    width: 200px;
+    height: 55px;
+    background-color: rgba(28,28,28,0);
+    font-family: "Myriad";
+    font-size: 24px;
+    color: white;
+    margin-left: 25px;
+    margin-top: 25px;
+    letter-spacing: 1px;
+}
+.btn-assort-btn1{
+    border: 2.65px solid #00b9e7;
+}
+.btn-assort-btn2{
+    border: 2.65px solid #ffcb00;
+}
+.btn-assort-btn3{
+    border: 2.65px solid #66bf0d;
+}
+.btn-bok{
+    cursor: pointer;
+    margin-top: 35px;
+    margin-left: 60px;
+}
+.search{
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+    gap: 300px;
+}
+.back-search{
+    letter-spacing: 8px;
+    font-family: "Tahoma";
+    font-size: 80px;
+    color: #dfdfdf;
+    font-weight: bold;
+}
+.search-text h2{
+    margin-top: -145px;
+    font-size: 36px;
+    font-family: "Parangon";
+}
+.texxxt{
+    margin-left: 55px;
+}
+.texxxt p{
+    letter-spacing: 2px;
+    color: #262626;
+    line-height: 40px;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.search-photo{
+    margin-top: 80px;
+}
+.head-projects,.footer-project{
+    background: #303263;
+    width: 1500px;
+    height: 120px;
+}
+.head-projects h2{
+    font-family: "Tahoma";
+    font-size: 96px;
+    color: #8c8da3;
+    letter-spacing: 10px;
+    text-align: center;
+}
+.head-projects p{
+    font-size: 36px;
+    font-family: "Parangon";
+    color: white;
+    text-align: center;
+    margin-top: -150px;
+}
+.all-project1,.all-project2{
+    display: flex;
+}
+.project4 h2{
+    font-family: "exo2";
+    font-size: 72px;
+    color: white;
+    font-weight: semibold;
+}
+.project4{
+    margin-left: 3px;
+}
+.project4 p{
+    font-family: "exo2";
+    font-size: 36px;
+    color: white;
+    font-weight: semibold;
+    margin-top: -70px;
+}
+.text-project4{
+    margin-top: -300px;
+    margin-left: 100px;
+}
+.footer-project{
+    margin-top: -5px;
+}
+.btn-project{
+    margin-top: 30px;
+    width: 250px;
+    height: 60px;
+    background: #6a6b8e;
+    border: #6a6b8e;
+    border-radius: 15px;
+    font-size: 24px;
+    font-family: "Parangon";
+    color: white;
+    margin-left: 600px;
+    cursor: pointer;
+}
+.adaptive{
+    display: flex;
+    margin-top: 100px;
+}
+.photo-adaptive{
+    margin-left: 210px;
+    margin-top: 80px;
+}
+.blocks-trade{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.trade{
+    margin-top: 150px;
+    background: url(img/Группа\ 33.png) no-repeat;
+    width: 1511px;
+    height: 676px;
+}
+.trade-h2{
+    text-align: center;
+    color: white;
+    font-family: "Parangon";
+    font-size: 48px;
+    padding-top: 70px;
+}
+.ff{
+    display: flex;
+}
+.blockkk1 h2{
+    margin-left: 20px;
+    color: white;
+    font-size: 30px;
+    font-family: "Parangon";
+}
+.blockkk1 p{
+    margin-top: -10px;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+.trade-btn{
+    margin-top: 30px;
+    width: 300px;
+    height: 60px;
+    background: #f6ae48;
+    border: #f6ae48;
+    border-radius: 15px;
+    font-size: 24px;
+    font-family: "Parangon";
+    color: white;
+    margin-left: 600px;
+    cursor: pointer;
+}
+.careful{
+    display: flex;
+}
+.photo-careful{
+    margin-left: 200px;
+}
+footer{
+    margin-top: 150px;
+    background: url(img/Группа\ 44.png) no-repeat;
+    width: 1572px;
+    height: 566px;
+    display: flex;
+    align-items: center;
+}
+.footer-text{
+    margin-left: 200px;
+    margin-top: -90px;
+}
+.forms{
+    margin-left: 120px;
+}
+.footer-text h2{
+    font-family: "Parangon";
+    font-size: 30px;
+    color: white;
+}
+.footer-text p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 2px;
+    line-height: 25px;
+    width: 404px;
+    height: 175px;
+}
+.name,.surname{
+    border: 3px solid white;
+    background-color: rgba(28,28,28,0);
+    width: 300px;
+    height: 40px;
+}
+.name::placeholder{
+    color: white;
+    padding-left:20px ;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.surname::placeholder{
+    color: white;
+    padding-left:20px ;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.surname{
+    margin-left: -5px;
+}
+.email::placeholder{
+    color: white;
+    padding-left:20px ;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.email{
+    border: 3px solid white;
+    background-color: rgba(28,28,28,0);
+    width: 609px;
+    height: 40px;
+    margin-top: -2px;
+}
+.text-form{
+    border: 3px solid white;
+    background-color: rgba(28,28,28,0);
+    width: 609px;
+    height: 220px;
+    margin-top: -2px;
+}
+.text-form::placeholder{
+    color: white;
+    padding-left: 20px ;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    transform: translateY(-90px);
+}
+.forms p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-left: 25px;
+}
+.cho-to{
+    display: flex;
+}
+.cho-to button{
+    margin-top: 14px;
+    width: 150px;
+    height: 45px;
+    background: #f6ae48;
+    border: #f6ae48;
+    border-radius: 15px;
+    font-size: 14px;
+    font-family: "Parangon";
+    color: white;
+    cursor: pointer;
+    margin-left: 90px;
+}
+.footer-last{
+    background: #f6ae48;
+    width: 1500px;
+    height: 109px;
+}
